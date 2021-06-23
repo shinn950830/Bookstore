@@ -12,6 +12,7 @@
 					<li class=\"default\" id=\"navJournal\"><a href=\"../Journal.php\">Journal</a></li>
 					<li class=\"default\" id=\"navAboutUs\"><a href=\"../AboutUs.php\">About Us</a></li>
 					<li class=\"default\" id=\"navContactUs\"><a href=\"../contactUs.php\">Contact Us</a></li>
+                    <li class=\"default\" id=\"navContactUs\"><a href=\"\">Partnership</a></li>
 					<li class=\"default\" id=\"navAdminPanel\"><a href=\"\" class=\"adminPanel\"></a></li>
 				</ul>
 				<ul class=\"nav navbar-nav navbar-right\">
