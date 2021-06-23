@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/Design.css">
+		<title>The Bookstore</title>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('.aubtn').hover(function () {
+					$('#intro').css('background-image', 'url("MainImage/MainImage3.jpg")');
+				}, 
+				function(){
+					$('#intro').css('background-image', 'url("MainImage/MainImage2.jpg")');
+				})
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div id = "intro">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<img src = "MainImage/MainImage3.jpg" width="0" height="0">
+						<div id = "introText">
+							<h1>THE WORLD IS QUIET HERE</h1>
+							<h2>Not just another bookstore.</h2>
+							<a class="aubtn" style="color:white; text-decoration:none" href="Main.php" >Visit Website</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

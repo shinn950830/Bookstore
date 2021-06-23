@@ -1,0 +1,58 @@
+img {
+    border-radius: 50%;
+	
+}
+
+
+#aboutUsPhoto{
+    position:relative
+	background-color: black;
+	background-image: url("../MainImage/aboutUs4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+    padding:5px;
+	width: 100%;
+	height: 100%;
+	margin-top:-22px;
+    
+}
+.headimg{
+	border-radius: 50%;
+	width: 50%;
+	transition: all .5s ease-in-out; 
+}
+
+.headimg:hover {
+	transform: scale(1.2); 
+}
+
+html, body{
+	height: 100%;
+	font-family: 'Glegoo', serif;
+}
+
+#facebookImg:hover{
+	content: url('../AboutUsPhoto/fb.jpg');
+    border-radius: 50%;
+}
+#mailImg:hover{
+	content: url('../AboutUsPhoto/mail.jpg');
+    border-radius: 90%;
+}
+
+.col-md-4{
+	text-align:center;
+    background-color: rgba(255, 255, 255, 0.6);
+  
+}
+
+
+.position{
+	font-size:14px;
+	font-style: oblique;
+}
+
+a>img{
+	border-radius:10px;
+}
